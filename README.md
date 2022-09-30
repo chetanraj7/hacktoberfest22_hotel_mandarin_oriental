@@ -49,20 +49,12 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 
 Happy Submissions :slightly_smiling_face:
 
-<h1 align=center> Project Maintainer ⚡ </h1>
+
+<h2 align=center> Project Maintainer ⚡ </h2>
 <p align="center">
-  <a href="https://github.com/SauravMukherjee44"><img src="https://github.com/SauravMukherjee44/Aec-Library-Website/blob/e2d7870b91f240964e9841a2a147aaf564b5fdb7/images/admin.jpg" width=150px height=150px /></a> 
-  <a href="https://github.com/SauravMukherjee44"><img src="https://github.com/SauravMukherjee44/Aec-Library-Website/blob/e2d7870b91f240964e9841a2a147aaf564b5fdb7/images/admin.jpg" width=150px height=150px /></a> 
+  <a href="https://github.com/ShrutiMishra-2002"><img src="87663868.png" width=150px height=150px /></a> 
+    <a href="https://github.com/mdnazisharman2803"><img src="https://user-images.githubusercontent.com/87663868/193329876-55286433-02f9-4765-bc34-2512f0758e52.png" width=150px height=150px /></a> 
 	<p align="center">
-
-
-<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
-<p align="center">
-  
-	
-<a href="https://github.com/SauravMukherjee44/Aec-Library-Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SauravMukherjee44/Aec-Library-Website" />
-</a>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
 
