@@ -12,24 +12,24 @@ The Mandarin Oriental is a hotel website, it features check in checkout, custome
 ## 📌 Main Page:
 <br><br>
 
-<img src="header.png" alt="mainpage" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/header.png" alt="mainpage" width="700px" height="400px">
 <br><br>
-<!--<img src="facilities.png" alt="facilities" width="700px" height="400px">
+<!--<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/facilities.png" alt="facilities" width="700px" height="400px">
 <br><br>-->
-<img src="booking.png" alt="booking" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/booking.png" alt="booking" width="700px" height="400px">
 <br><br>
 
-<img src="deluxeroom.png" alt="deluxeroom" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/deluxeroom.png" alt="deluxeroom" width="700px" height="400px">
 <br><br>
 
-<img src="twinroom.png" alt="twinroom" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/twinroom.png" alt="twinroom" width="700px" height="400px">
 <br><br>
-<img src="standardroom.png" alt="standardroom" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/standardroom.png" alt="standardroom" width="700px" height="400px">
 <br><br>
-<img src="review.png" alt="review" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/review.png" alt="review" width="700px" height="400px">
 <br><br>
 
-<img src="footer.png" alt="footer" width="700px" height="400px">
+<img src="https://github.com/ShrutiMishra-2002/hacktoberfest22_hotel_mandarin_oriental/blob/main/images/footer.png" alt="footer" width="700px" height="400px">
 <br><br>
 
 </div>
