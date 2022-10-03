@@ -82,7 +82,6 @@ img{
     text-align: center;
     width: 80vw;
     margin: 0 auto;
-    backdrop-filter: blur(5px);
 }
 .head-bottom h2{
     padding: 22px 0;
