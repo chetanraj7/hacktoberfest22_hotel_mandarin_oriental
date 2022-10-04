@@ -44,6 +44,8 @@ h1, h2, h3, h4, h5, h6{
 }
 img{
     width: 100%;
+    height: 70vh;
+    object-fit: fill;
     display: block;
 }
 @media(max-width: 500px){
@@ -386,6 +388,10 @@ img{
 .room-text ul li i{
     color: var(--yellow);
     margin-right: 10px;
+}
+.cardText {
+    width: 100%;
+    height: 35vh;
 }
 .rate{
     opacity: 0.8;
