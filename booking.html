@@ -17,9 +17,7 @@
 					<div class="col-md-7 col-md-push-5">
 						<div class="booking-cta">
 							<h1>Make your reservation</h1>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-								ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-								Perspiciatis.
+							<p id="roomDescription">
 							</p>
 						</div>
 					</div>
@@ -27,8 +25,13 @@
 						<div class="booking-form">
 							<form>
 								<div class="form-group">
-									<span class="form-label">Your Destination</span>
-									<input class="form-control" type="text" placeholder="Enter a destination or hotel name">
+									<span class="form-label">Select a Room</span>
+									<select class="form-control" id="roomOptions">
+										<option></option>
+										<option value="deluxe">Deluxe Queen Room</option>
+										<option value="twin">Twin Rooms</option>
+										<option value="standard">Standard Rooms</option>
+									</select>
 								</div>
 								<div class="row">
 									<div class="col-sm-6">
@@ -80,7 +83,8 @@
 									</div>
 								</div>
 								<div class="form-btn">
-									<button class="submit-btn">Check availability</button>
+									<button class="submit-btn">Make a Booking</button>
+									<a href="index.html#rooms" class="cancel-btn">Cancel</a>
 								</div>
 							</form>
 						</div>
@@ -89,5 +93,30 @@
 			</div>
 		</div>
 	</div>
+    <script>
+		var selectedRoom = document.getElementById("roomOptions");
+		var booking = document.getElementById("booking");
+		var roomDescription = document.getElementById("roomDescription");
+		booking.style.backgroundImage = "url(images/hotelheader.jpg)";
+		selectedRoom.onclick = function(){
+			if (this.value == "deluxe"){
+				booking.style.backgroundImage = "url(images/deluxeroom.jpg)";
+				roomDescription.innerHTML = 'The room features a king size bed. Room also includes mini fridge, sofa, air conditioning, Wi-Fi, remote-controlled flat screen TV';
+			
+			}
+			else if (this.value == "twin"){
+				booking.style.backgroundImage = "url(images/twinroom.jpg)";
+				roomDescription.innerHTML = 'The room features two separate standard  beds. Room also includes mini fridge, sofa air conditioning,  remote-controlled flat screen TV';
+			}
+			else if (this.value == "standard"){
+				booking.style.backgroundImage = "url(images/standardroom.jpg)";
+				roomDescription.innerHTML = 'The room features a bed (standard-size bed). Room also includes air conditioning, remote-controlled flat screen TV';
+			}
+			else {
+				booking.style.backgroundImage = "url(images/hotelheader.jpg)";
+				roomDescription.innerHTML = '';
+			}
+		}
+	</script>
 </body>
 </html>
