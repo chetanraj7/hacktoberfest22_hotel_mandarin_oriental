@@ -4,6 +4,7 @@ const sideNav = document.getElementById("sidenav");
 const modal = document.getElementById("modal");
 const scrollBg = document.querySelector(".scroll-bg");
 const navigations = document.querySelectorAll(".navbar li");
+var loader= document.getElementById("preloader");
 
 navBtn.addEventListener("click", function () {
   sideNav.classList.add("show");
@@ -32,4 +33,9 @@ navigations.forEach((nav) => {
     sideNav.classList.remove("show");
     modal.classList.remove("showModal");
   });
+});
+
+window.addEventListener("load",function(){
+  loader.style.display="none";
+  document.body.style.overflow = "unset";
 });
