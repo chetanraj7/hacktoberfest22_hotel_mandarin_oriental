@@ -4,7 +4,15 @@ const sideNav = document.getElementById("sidenav");
 const modal = document.getElementById("modal");
 const scrollBg = document.querySelector(".scroll-bg");
 const navigations = document.querySelectorAll(".navbar li");
+const btnScrollToTop = document.getElementById("btnScrollToTop");
 
+btnScrollToTop.addEventListener("click", function(){
+    window.scrollTo({
+        top: 0, 
+        left: 0,
+        behavior: "smooth"
+    });
+});
 navBtn.addEventListener("click", function () {
   sideNav.classList.add("show");
   modal.classList.add("showModal");
