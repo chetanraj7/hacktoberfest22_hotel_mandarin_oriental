@@ -4,15 +4,9 @@ const sideNav = document.getElementById("sidenav");
 const modal = document.getElementById("modal");
 const scrollBg = document.querySelector(".scroll-bg");
 const navigations = document.querySelectorAll(".navbar li");
-const btnScrollToTop = document.getElementById("btnScrollToTop");
 
-btnScrollToTop.addEventListener("click", function(){
-    window.scrollTo({
-        top: 0, 
-        left: 0,
-        behavior: "smooth"
-    });
-});
+var loader= document.getElementById("preloader");
+
 navBtn.addEventListener("click", function () {
   sideNav.classList.add("show");
   modal.classList.add("showModal");
@@ -40,4 +34,9 @@ navigations.forEach((nav) => {
     sideNav.classList.remove("show");
     modal.classList.remove("showModal");
   });
+});
+
+window.addEventListener("load",function(){
+  loader.style.display="none";
+  document.body.style.overflow = "unset";
 });
